@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="signup.js"></script>
+    <title>GG Signup</title>
+</head>
+<body>
+    <header>
+        <img src="image/logo.png" alt="">
+    </header>
+    <div class="Signup">
+        <div class="Register" id="formfill">
+            <form name="formfill" onsubmit="return validation()">
+                <h2 id="supheading">Register</h2>
+                <p id="result"></p>
+                <div class="input-box">
+                    <input type="text" name="Username" placeholder="Name">
+                </div>
+                <div class="input-box">
+                    <input type="email" name="Email" placeholder="Email Id">
+                </div>
+                <div class="input-box">
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="input-box">
+                    <input type="password" name="cpassword" placeholder="Confirm Password">
+                </div>
+                <div>
+                    <input type="submit" value="Register" class="btn">
+                </div><br>
+                <a href="loginpage.html" class="link">Back to login</a>
+            </form>
+        </div>
+        <!-- <div class="popup" id="popup"></div>  -->
+    </div>
+</body>
+
+</html>

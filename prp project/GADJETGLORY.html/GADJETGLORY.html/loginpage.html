@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+    <title>GG Login</title>
+</head>
+<body>
+    
+    <header>
+        <img src="image/logo.png" alt="">
+    </header>
+    <div class="main">
+     <img src="image/background img.png" alt="" class="bg" width="100%" height="100%">
+        <div class="login" id="loginform" >
+            <form name="loginform" onsubmit="return validation()">
+                    <h1 id="logheading">Login</h1>
+                    <p id="final"></p>
+                    <div class="input-box">
+                         <input type="text" name="Username" placeholder="Username">
+                    </div>
+                    <div class="input-box">
+                       <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                       <input type="password" name="Password" placeholder="Password">
+                    </div>
+                    <div class="cbox">
+                     <b> <input type="checkbox" name="Remember me" value="Remember me"> Remember me</b>
+                    </div>
+                    <div>
+                        <input type="submit" value="Login" class="button" >
+                    </div>
+                </b>
+                <br>
+                <div class="group">
+                    <a href="#">Forget password</a><br>
+                <a href="#">Don't have an account?</a>
+            <a href="signuppage.html"  id="registerfont">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
