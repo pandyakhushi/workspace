@@ -1,0 +1,87 @@
+body{
+  background-color: #FFEEDB;
+}
+.heading{
+  text-align: center;
+  text-decoration:underline;
+  font-size: xx-large;
+  margin-top: 40px;
+  padding-top: 30px;
+}
+.containbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin: 10px;
+}
+.signbox{
+  background-image: url(images/loginbg.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 350px;
+  border: 2px solid;
+  border-color: #0A1D37;
+  border-radius: 20px;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px; ;
+  padding-top: 50px;
+  font-size: xx-large;
+}
+.info{
+  text-align: center;
+  margin-top:10px ;
+}
+.info #input-box {
+  padding-top: 20px;
+}
+.info input{
+  padding-top: 10px;
+  width: 250px;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid;
+  border-color: rgb(157, 157, 157);
+  font-size: medium;
+  color:#0A1D37 ;
+}
+.info ::placeholder{
+  color: #0A1D37;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+#button{
+ background-color: #FFBD9B;
+ height: 30px;
+ width: 120px;
+ font-size: large;
+ border-radius: 20px;
+}
+#button:hover{
+  background-color: #d97e16;
+}
+.signbox p{
+  text-align: center;
+  font-size: large;
+}
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
