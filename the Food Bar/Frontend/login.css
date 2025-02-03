@@ -1,0 +1,60 @@
+body {
+    background-color: #FFEEDB;
+}
+.box {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details {
+    /* padding-top: 40px; */
+    height: 500px;
+    width: 350px;
+    background-image: url(images/loginbg.jpg) ;
+    /* background-color: rgba(255, 135, 91, 0.400); */
+    background-size: cover;
+    border: 2px solid rgba(228, 156, 93, 0.7);
+    border-radius: 20px;
+    /* backdrop-filter: blur(70px); */
+    /* box: shadow 50px black; */
+}
+.details .input-box {
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    margin: 15px 0;
+    /* border-bottom:2px solid; */
+    /* border-right-width: 25px; */
+}
+.details .input-box input {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 23px;
+    width: 250px;
+    /* padding-top: 10px; */
+    padding-left: 25px;
+    font-size: 18px;
+    background: transparent;
+}
+.input-box ::placeholder {
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    border-bottom: 2px solid;
+}
+a:hover {
+    color:crimson;
+}
+h1,
+h4 {
+    text-align: center;
+    position: relative;
+}
+#log{
+    padding-top: 38px;
+
+}
